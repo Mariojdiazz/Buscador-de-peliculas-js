@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Buscador de Peliculas</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Buscador de Peliculas</h1>
+        <input type="text" id="searchInput" placeholder="Ingrese el titulo de la pelicula">
+        <button id="searchButton">Buscar</button>
+        <div id="results"></div>
+    </div>
+
+    <div id="movieModal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <img id="modalPoster" src="" alt="Poster de la película">
+            <h2 id="modalTitle"></h2>
+            <p id="modalReleaseDate"></p>
+            <p id="modalOverview"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
